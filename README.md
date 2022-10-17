@@ -1,5 +1,3 @@
-# pyspark_applications
-
 ## English description
 
 This repository contains a Jupyter notebook that work on simulated data using PySpark.
