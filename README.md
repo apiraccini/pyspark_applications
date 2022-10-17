@@ -6,7 +6,7 @@ Data are split in equal halves, then for each one a linear model is estimated, a
 
 The two models are estimated using a MapReduce approach, implemented thanks to PySpark internal functions.
 
-This analysis is the application on simulated data of the techniques developed for my M.Sc. thesis in Statistical Sciences, titled: "Managing Big Data on the cloud: review and applications".
+This analysis is the application on simulated data of the techniques developed for my M.Sc. thesis in Statistical Sciences, titled: "Big Data analysis on the cloud: overview and applications".
 
 
 ## Italian description
@@ -17,4 +17,4 @@ I dati vengono divisi in metà uguali, quindi per ciascuna viene stimato un mode
 
 I due modelli sono stimati utilizzando un approccio MapReduce, implementato grazie alle funzioni interne di PySpark.
 
-Questa analisi è l'applicazione su dati simulati delle tecniche sviluppate per il mio M.Sc. tesi in Scienze Statistiche, dal titolo: "Gestire Big Data nel cloud: panoramica e applicazioni".
+Questa analisi è l'applicazione su dati simulati delle tecniche sviluppate per il mio M.Sc. tesi in Scienze Statistiche, dal titolo: "L'analisi di Big Data nel cloud: panoramica e applicazioni".
