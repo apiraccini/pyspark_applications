@@ -1,8 +1,8 @@
 ## English description
 
-This repository contains a Jupyter notebook that work on simulated data using PySpark.
+This repository contains a Jupyter notebook that works on simulated data using PySpark.
 
-Data are split in equal halves, then for each one a linear model is estimated, and predictions for the response are obtained based on the model associated to the other split. The predictions are then used to perform the rank-one-out split conformal algorithm in order to build predictive intervals with desired empirical coverage. The operations are repeated for an additive model (estimated using penalized regression splines). In conclusion the models are compared based on their RMSE, in addition to average length and empirical coverage the of predictive intervals.
+Data are split in equal halves, then for each one a linear model is estimated, and predictions for the response are obtained based on the model associated to the other split. The predictions are then used to perform the rank-one-out split conformal algorithm in order to build predictive intervals with desired empirical coverage. The operations are repeated for an additive model (estimated using penalized regression splines). In conclusion the models are compared based on their RMSE, in addition to average length and empirical coverage of the predictive intervals.
 
 The two models are estimated using a MapReduce approach, implemented thanks to PySpark internal functions.
 
@@ -17,4 +17,4 @@ I dati vengono divisi in metà uguali, quindi per ciascuna viene stimato un mode
 
 I due modelli sono stimati utilizzando un approccio MapReduce, implementato grazie alle funzioni interne di PySpark.
 
-Questa analisi è l'applicazione su dati simulati delle tecniche sviluppate per il mio M.Sc. tesi in Scienze Statistiche, dal titolo: "L'analisi di Big Data nel cloud: panoramica e applicazioni".
+Questa analisi è l'applicazione su dati simulati delle tecniche sviluppate per la mia tesi in Scienze Statistiche, dal titolo: "L'analisi di Big Data nel cloud: panoramica e applicazioni".
